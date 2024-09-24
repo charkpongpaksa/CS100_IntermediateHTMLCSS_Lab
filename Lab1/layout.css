@@ -3,3 +3,38 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header, nav, article, div, footer {
+    padding: 10px;
+    border: solid;
+    border-color: grey;
+    background-color: yellow;
+    text-align: center;
+}
+
+header, footer {
+    width: 100%;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    height: 200px;
+}
+
+article {
+    float: left;
+    width: 60%;
+    height: 200px;
+}
+
+div {
+    float: left;
+    width: 20%;
+    height: 200px;
+}
